@@ -1,0 +1,17 @@
+@import "../libs/normalize.css";
+@import "./fonts";
+@import "./var.scss";
+@import "../css/blocks/header.scss";
+@import "../css/blocks/products.scss";
+
+body {
+  font-family: "Geologica";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
