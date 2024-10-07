@@ -3,6 +3,7 @@
 @import "./var.scss";
 @import "../css/blocks/header.scss";
 @import "../css/blocks/products.scss";
+@import "../css/blocks/pagination.scss";
 
 body {
   font-family: "Geologica";
@@ -14,4 +15,8 @@ body {
   max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   margin-inline: auto;
   padding-inline: var(--container-padding-x);
+}
+
+.hidden {
+  display: none;
 }
